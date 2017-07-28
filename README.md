@@ -1,1 +1,2 @@
-# rate-it
+# Rate It
+Rate something.
