@@ -1,13 +1,19 @@
 div {
-    width: 600px;
+    width: 225px;
     border: 1px solid #ddd;
     margin: auto;
     text-align: center;
 }
 
+.tweet {
+    width: 450px;
+    font-size: 20px;
+}
+
 p {
     font: bold 25px 'Open Sans Condensed', sans-serif;
     color: #666666;
+    padding: 0 12px;
 }
 
 .fa {
@@ -16,9 +22,9 @@ p {
 
 .fa-thumbs-down {
     -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
