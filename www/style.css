@@ -6,25 +6,46 @@ div {
 }
 
 .tweet {
-    width: 450px;
+    width: 33.33333%;
+}
+
+.tweet p {
     font-size: 20px;
+    margin: 20px auto;
 }
 
 p {
     font: bold 25px 'Open Sans Condensed', sans-serif;
     color: #666666;
     padding: 0 12px;
+    margin-bottom: 5px;
 }
 
-.fa {
-    color: #353535;
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
-.fa-thumbs-down {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
+.thumbs-up {
+    background-image: url(img/thumbs-up.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.thumbs-up:hover {
+    background-image: url(img/thumbs-up-hover.png);
+}
+
+.thumbs-down {
+    background-image: url(img/thumbs-down.png);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.thumbs-down:hover {
+    background-image: url(img/thumbs-down-hover.png);
 }
